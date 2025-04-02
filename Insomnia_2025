@@ -1,0 +1,101 @@
+type: collection.insomnia.rest/5.0
+name: Social Media APIs
+meta:
+  id: wrk_fa80486d025f461895d061d8afa07058
+  created: 1743605110454
+  modified: 1743605110454
+collection:
+  - url: http://20.244.56.144/evaluation-service/users
+    name: Get All Users
+    meta:
+      id: req_62fbd8e623d04342b60407461b4ef148
+      created: 1743605124783
+      modified: 1743605655075
+      isPrivate: false
+      sortKey: -1743605124783
+    method: GET
+    body:
+      mimeType: application/json
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.1
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQzNjA1OTE5LCJpYXQiOjE3NDM2MDU2MTksImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImYzODBlYWQyLWRlYzUtNDI3My1hODg0LWU2YjYwZDI3OTk4MSIsInN1YiI6IjIyMDUzNTYyQGtpaXQuYWMuaW4ifSwiZW1haWwiOiIyMjA1MzU2MkBraWl0LmFjLmluIiwibmFtZSI6InVubWVzaGEgc2luZ2giLCJyb2xsTm8iOiIyMjA1MzU2MiIsImFjY2Vzc0NvZGUiOiJud3B3cloiLCJjbGllbnRJRCI6ImYzODBlYWQyLWRlYzUtNDI3My1hODg0LWU2YjYwZDI3OTk4MSIsImNsaWVudFNlY3JldCI6Imp0ckp5U3lXUnV5UG5YUGQifQ.ph2fQfnOSIYUS-Y-4LLBmGICuKv1tP7h-OZ0HmeOIOE
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://20.244.56.144/evaluation-service/users/1/posts
+    name: Get User Posts
+    meta:
+      id: req_59970e02fb0140a8bb94527baca93470
+      created: 1743605355254
+      modified: 1743605648665
+      isPrivate: false
+      sortKey: -1743605355254
+    method: GET
+    body:
+      mimeType: application/json
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.1
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQzNjA1OTE5LCJpYXQiOjE3NDM2MDU2MTksImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImYzODBlYWQyLWRlYzUtNDI3My1hODg0LWU2YjYwZDI3OTk4MSIsInN1YiI6IjIyMDUzNTYyQGtpaXQuYWMuaW4ifSwiZW1haWwiOiIyMjA1MzU2MkBraWl0LmFjLmluIiwibmFtZSI6InVubWVzaGEgc2luZ2giLCJyb2xsTm8iOiIyMjA1MzU2MiIsImFjY2Vzc0NvZGUiOiJud3B3cloiLCJjbGllbnRJRCI6ImYzODBlYWQyLWRlYzUtNDI3My1hODg0LWU2YjYwZDI3OTk4MSIsImNsaWVudFNlY3JldCI6Imp0ckp5U3lXUnV5UG5YUGQifQ.ph2fQfnOSIYUS-Y-4LLBmGICuKv1tP7h-OZ0HmeOIOE
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://20.244.56.144/evaluation-service/posts/150/comments
+    name: Get Post Comments
+    meta:
+      id: req_d7a1476aeccf4db995ddbd7e66604555
+      created: 1743605516655
+      modified: 1743605636538
+      isPrivate: false
+      sortKey: -1743605516655
+    method: GET
+    body:
+      mimeType: application/json
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.1
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQzNjA1OTE5LCJpYXQiOjE3NDM2MDU2MTksImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImYzODBlYWQyLWRlYzUtNDI3My1hODg0LWU2YjYwZDI3OTk4MSIsInN1YiI6IjIyMDUzNTYyQGtpaXQuYWMuaW4ifSwiZW1haWwiOiIyMjA1MzU2MkBraWl0LmFjLmluIiwibmFtZSI6InVubWVzaGEgc2luZ2giLCJyb2xsTm8iOiIyMjA1MzU2MiIsImFjY2Vzc0NvZGUiOiJud3B3cloiLCJjbGllbnRJRCI6ImYzODBlYWQyLWRlYzUtNDI3My1hODg0LWU2YjYwZDI3OTk4MSIsImNsaWVudFNlY3JldCI6Imp0ckp5U3lXUnV5UG5YUGQifQ.ph2fQfnOSIYUS-Y-4LLBmGICuKv1tP7h-OZ0HmeOIOE
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_9a70c511f2330da2dcd1345ecdd18ae20555f922
+    created: 1743605110464
+    modified: 1743605110464
+environments:
+  name: Base Environment
+  meta:
+    id: env_9a70c511f2330da2dcd1345ecdd18ae20555f922
+    created: 1743605110461
+    modified: 1743605110461
+    isPrivate: false
